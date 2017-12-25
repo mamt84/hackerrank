@@ -1,0 +1,9 @@
+/.idea
+/.project
+/.settings
+/target/
+*.prefs
+*.iml
+*.name
+*.xml
+system
