@@ -2,10 +2,8 @@
 /.project
 /.settings
 /target/
-bin/
 *.prefs
 *.iml
 *.name
 *.xml
 system
-.classpath
