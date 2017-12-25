@@ -2,7 +2,7 @@
 /.project
 /.settings
 /target/
-/bin/*
+bin/
 *.prefs
 *.iml
 *.name
