@@ -5,7 +5,6 @@
 *.prefs
 *.iml
 *.name
-*.xml
 system
 .classpath
 bin/
