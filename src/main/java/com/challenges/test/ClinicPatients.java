@@ -14,7 +14,7 @@ import java.util.Scanner;
  * visit the clinic during the day, then n lines with 2 strings separated by space
  * containing the arriving and leaving time of each patient, the time will be in military
  * time and will follow the format hh:mm As output print 1 line containing the amount of
- * patients in the most busy period of time follow by the initial time and final time of
+ * patients in the most busy period of time followed by the initial time and final time of
  * such period, all of them separated by 1 space.
  */
 
