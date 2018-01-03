@@ -26,7 +26,6 @@ public class CompanyMatches {
 					replaced = true;
 				}
 			}
-			// Pattern.compile("^\\w*?" + "" + "\\w*?$").matcher("");
 			if (!replaced) {
 				for (String element : periodicElements) {
 					String lowerCaseCompany = company.toLowerCase();
