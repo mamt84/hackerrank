@@ -30,20 +30,6 @@ class Patient
         this.initialTime = initialTime;
         this.finalTime = finalTime;
     }
-
-    /**
-     *
-     * (non-Javadoc)
-     * 
-     * @see java.lang.Object#toString()
-     *
-     */
-    @Override
-    public String toString()
-    {
-        return "Patient [id=" + id + ", initialTime=" + initialTime + ", finalTime=" + finalTime + "]";
-    }
-
 }
 
 class Snapshot implements Comparable<Snapshot>
@@ -63,23 +49,8 @@ class Snapshot implements Comparable<Snapshot>
     public int compareTo( Snapshot other )
     {
         int timeComparison = time.compareTo( other.time );
-        int arrivingComparison = arriving == other.arriving ? 0 : arriving ? 1 : -1;
         return timeComparison != 0 ? timeComparison : arriving ? 1 : -1;
     }
-
-    /**
-     *
-     * (non-Javadoc)
-     * 
-     * @see java.lang.Object#toString()
-     *
-     */
-    @Override
-    public String toString()
-    {
-        return "Snapshot [patient=" + patient + ", time=" + time + ", arriving=" + arriving + "]";
-    }
-
 }
 
 public class ClinicPatients

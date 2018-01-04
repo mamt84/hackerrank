@@ -7,9 +7,10 @@ import java.util.Set;
 public class CompanyMatches
 {
     /*
-     * Problem Deifnition: Given an array of elements from the periodic table, and a list of
+     * Problem Definition: Given an array of elements from the periodic table, and a list of
      * companies, match the elements that fit in the company name. So like, In and LinkedIn
-     * will show linked[In]
+     * will show linked[In]. The solution should look for exact matches and if none found, then
+     * case insensitive matches should be tried.
      */
     public static void main( String[] args )
     {
